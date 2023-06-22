@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu&display=swap');
+body{
+    background-color: rgb(1, 2, 31);
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    font-family: 'Poppins';
+}
+
+.searchbut{
+    background-color: rgb(19, 19, 47);
+    color: #fff;
+}
+
+#profilepic{
+    width:60px;
+    height:60px;
+}
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 24px;
+}
+
+.brand img{
+    width:58px;
+    padding: 0 8px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-size: 1.3rem;
+
+}
+
+.brand:hover{
+    color: lightgray;
+}
+
+.rightdiv{
+    
+    float: right;
+    padding-top: 20px;
+    display: flex;
+    font-family: 'Poppins';
+    color: white;
+    /* text-align: left; */
+    padding-right: 120px;
+    width: 25%;
+}
+
+#artists{
+    color: white;
+    /* text-align: right; */
+}
+.songListnew{
+    display: block;
+    list-style-type: none;
+}
+
+#imgsep{
+    width: 80px;
+    height: 80px;
+    display:block;
+    list-style-type: none;
+}
+
+
+
+.container{
+    max-height: 40vh;
+    background-color: rgb(19, 31, 86);
+    color: white;
+    font-family: 'Poppins';
+    display: flex;
+    width: 60%;
+    /* height: 40%; */
+    margin: 16px 50px ;
+    padding:24px;
+    
+}
+
+
+
+.songList{
+    display:inline-flex;
+    list-style-type: none;
+}
+
+
+
+.contpadding{
+    padding: 0 24px;
+}
+
+div ul li{
+    padding: 0 24px;
+    list-style-type: none;
+}
+
+#songList{
+    padding-right:24px ;
+}
+
+#bandDes{
+    display: block;
+}
+
+.songItem1{
+    max-height: 0.4vh;
+    background-color: rgb(27, 30, 47);
+    color: white;
+    font-family: 'Poppins';
+    display: flex;
+    width: 60%;
+    /* height: 40%; */
+    margin: 6px 50px ;
+    padding:24px;
+    
+}
+
+.songItem1:hover{
+    color:gray;
+}
+
+#img1{
+    width:36px;
+    height:28px;
+    align:flex;
+}
+
+#imglist{
+    padding: 0 1px;
+    list-style-type: none;
+}
+
+#songNames{
+    display: flex;
+    size: 1rem;
+    margin-bottom: -3%;
+}
+
+#buttonplay{
+    background-image:linear-gradient( blue,violet);
+    padding: 6px;
+}
+
+#botimg{
+    width: 74px;
+    height:74px;
+    align:left;
+    display: flex;
+    /* justify-content: left; */
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(39, 35, 35);
+    color: white;
+    bottom: 0;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction:column;
+    font-family: 'Poppins';
+    
+
+}
+
+.bottomsong{
+    display:inline-flex;
+    list-style-type: none;
+}
+
+
+
+.icons{
+    margin-bottom: 10px;
+}
+
+#myProgressBar{
+    width:10vw ;
+    text-align: center;
+}
+
+#myProgressBar{
+    width:40vw ;
+    text-align: center;
+    
+}
